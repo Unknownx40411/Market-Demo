@@ -1,0 +1,125 @@
+{
+    "short_name": "Shoprite",
+    "name": "Shoprite SA",
+    "description": "Shoprite brings you SA's lowest cost bank account. Keep your money safe and bank with a brand you trust! Shoprite, lowest prices always!",
+    "orientation": "portrait",
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=za.co.shoprite.shopriteeezicoupon",
+            "id": "za.co.shoprite.shopriteeezicoupon"
+        }
+    ],
+    "prefer_related_applications": true,
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "48x48",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "shoprite-192-icon.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "shoprite-512-icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Pay In-Store",
+            "short_name": "Pay In-Store",
+            "description": "Generate a token to pay in-store",
+            "url": "/mobile-deposit/wallet-select",
+            "icons": [
+                {
+                    "src": "/pay_in-store_icon.png?nextScreen=/load-cash&title=Pay%20In-Store&subHeader=From%20which%20account?",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ],
+    "id": "/",
+    "start_url": ".",
+    "display_override": ["standalone", "fullscreen", "minimal-ui", "browser"],
+    "display": "standalone",
+    "screenshots": [
+        {
+            "src": "screenshots/1.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "screenshots/2.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "screenshots/3.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "screenshots/4.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "screenshots/5.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "screenshots/1.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/2.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/3.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/4.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/5.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/6.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/7.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+    ],
+    "theme_color": "#f80d0d",
+    "background_color": "#ea212d"
+}
